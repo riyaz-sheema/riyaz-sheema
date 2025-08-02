@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Riyaz & Sheema's Wedding</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" type="image/png" href="./Resource/icon.png">
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</head>
+<body>
+
+  <!-- Fixed Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#countdown">Countdown</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#map-section">Location</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero fade-in" id="home">
+    <p>A journey of love and togetherness begins...<br/> With great joy, we invite you to celebrate the wedding of</p>
+    <h1>Riyaz & Sheema</h1>
+    <p>Your presence will mean the world to us on</p>
+    <div class="date-aod" id="appleDate">📆 05 OCt 2025</div>
+  </section>
+
+  <!-- Countdown Section -->
+  <section class="countdown-section fade-in" id="countdown">
+    <h2>Countdown to Our Wedding</h2>
+    <div id="countdown-timer">
+      <div><span id="days">--</span><p class="counter-text">Days</p></div>
+      <div><span id="hours">--</span><p class="counter-text">Hours</p></div>
+      <div><span id="minutes">--</span><p class="counter-text">Minutes</p></div>
+      <div><span id="seconds">--</span><p class="counter-text">Seconds</p></div>
+    </div>
+  </section>
+
+  <!-- Event Schedule Section -->
+<section class="schedule-section fade-in" id="schedule">
+  <h2>Schedule of Events</h2>
+  <div class="event-list">
+    <div class="event">
+      <h3>Wedding Ceremony</h3>
+      <p>📍 Blue Lagoon Beach Resort, 11:30 AM</p>
+    </div>
+    <div class="event">
+      <h3>Lunch</h3>
+      <p>🍽️ Rani Mahal Wedding Hall, 12:30 PM</p>
+    </div>
+  </div>
+</section>
+
+ <!-- Gallery Section -->
+  <section class="gallery-section fade-in" id="gallery">
+    <h2>Our Memories</h2>
+    <div class="gallery">
+      <img src="./Resource/pic_one.jpeg" alt="Photo 1" />
+      <img src="./Resource/pic_two.jpeg" alt="Photo 2" />
+      <img src="./Resource/pic_three.jpeg" alt="Photo 3" />
+    </div>
+  </section>
+
+  <!-- Map Section -->
+<section class="map-section fade-in" id="map-section">
+  <h2>Wedding Location</h2>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=27.1751,78.0421" target="_blank">
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4729662781538!2d80.25318207447368!3d12.941558987371039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525cdc21eba421%3A0x2123109304cacd17!2sBlue%20Lagoon%20Beach%20Resort!5e0!3m2!1sen!2sin!4v1754101989378!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </a>
+</section>
+
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
